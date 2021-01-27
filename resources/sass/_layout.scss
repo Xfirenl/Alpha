@@ -98,7 +98,7 @@ p{
         border-top: 1px solid $light-gray;
         border-bottom: 1px solid $light-gray;
     }
-    .card-body {
+    .card-body { // change .card-body to something else
         flex: 1 1 auto;
         min-height: 1px;
         padding: 1.25rem;
@@ -127,5 +127,41 @@ p{
         .description{
             text-align: center;
         }
+    }
+}
+
+//area css
+
+
+// action table
+.action{
+    border-spacing: 0;
+    tr{
+        background-color: $dark-gray;
+
+        
+    }
+
+    .separating_line {
+        border-top: 1px solid $white;
+    }
+    td{
+        padding: 5px;
+    }
+}
+
+//action (modal)
+
+.modal{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    // display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $dark-gray;
+
+    .header{
+        padding: 10px;
     }
 }

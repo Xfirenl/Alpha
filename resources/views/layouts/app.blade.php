@@ -20,7 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-        <main class="grid-container">
+        <main class="grid-container" id="app">
             
             @yield('content')
         </main>

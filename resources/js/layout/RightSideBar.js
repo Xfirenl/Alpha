@@ -1,11 +1,10 @@
 import React from 'react';
+import Items from '../components/Sidebar/Items';
 
-function RightSideBar() {
+export default function RightSideBar(itemsData) {
     return (
         <div>
-            <h2>Inventory</h2>
+            <Items itemsData={itemsData.itemsData} />
         </div>
     );
 }
-
-export default RightSideBar;

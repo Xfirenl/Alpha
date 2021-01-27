@@ -20,7 +20,7 @@ class Action extends Model
      * @var array
      */
     protected $hidden = [
-        'id',
+        // 'id',
         'location_id',
     ];
 

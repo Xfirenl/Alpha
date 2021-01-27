@@ -126,3 +126,32 @@ p {
   text-align: center;
 }
 
+.action {
+  border-spacing: 0;
+}
+
+.action tr {
+  background-color: #373737;
+}
+
+.action .separating_line {
+  border-top: 1px solid #FFFFFF;
+}
+
+.action td {
+  padding: 5px;
+}
+
+.modal {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  background-color: #373737;
+}
+
+.modal .header {
+  padding: 10px;
+}
+
